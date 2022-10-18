@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- <link rel="stylesheet" href="/assets/css/swiper.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis</title>
+</head>
+<body id="body">
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="/index.html">
+                    <img src="/assets/img/Logo.svg" alt="">
+                </a>
+            </div>
+            <ul class="list">
+                <li class="list__item">
+                    <a class="list__link" href="/index.html">Главная</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="/about.html">О клубе</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="/news.html">Новости</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Турниры</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Услуги</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Галерея</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Цены</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link" href="#">Контакты</a>
+                </li>
+                <ul class="list__item list__item-social">
+                    <li class="list__item-menu">
+                        <a class="social__link social__link-menu" href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="list__item-menu">
+                        <a class="social__link social__link-menu" href="#">
+                            <i class="fa-brands fa-vk"></i>
+                        </a>
+                    </li>
+                    <li class="list__item-menu">
+                        <a class="social__link social__link-menu" href="#">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+            <div class="social">
+                <a class="social__link" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="social__link" href="#">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+            </div>
+            <div class="menu">
+                <span class="burger">menu</span>
+                <span class="burger">menu</span>
+                <span class="burger">menu</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__info">
+            <h1 class="intro__title">
+                Петербургский<br> теннисный клуб<br> имени М.А. Пасечникова
+            </h1>
+
+            <div class="intro__content">
+                <div class="intro__photo">
+                    <img class="intro__icon" src="/assets/img/intro/arrow.svg" alt="">
+                </div>
+                <a class="intro__subtitle" href="#">Посмотрите видео<br> о нашем клубе</a>
+            </div>
+        </div>
+
+        <div class="preview">
+            <div class="preview__item">
+                <div class="preview__info">
+                    <div class="preview__subtitle">Услуги</div>
+                    <a class="preview__title" href="#">Аренда корта</a>
+                </div>
+                <a class="preview__icon" href="#">
+                    <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="preview__item">
+                <div class="preview__info">
+                    <div class="preview__subtitle">Услуги</div>
+                    <a class="preview__title" href="#">Детский теннис</a>
+                </div>
+                <a class="preview__icon" href="#">
+                    <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="preview__item">
+                <div class="preview__info">
+                    <div class="preview__subtitle">Услуги</div>
+                    <a class="preview__title" href="#">Сборы команд</a>
+                </div>
+                <a class="preview__icon" href="#">
+                    <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+
+            <div class="preview__item">
+                <div class="preview__info">
+                    <div class="preview__subtitle">Турниры</div>
+                    <a class="preview__title" href="#">Расписание</a>
+                </div>
+                <a class="preview__icon" href="#">
+                    <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- card -->
+
+<div class="card">
+    <div class="container">
+        <div class="card__inner">
+            <div class="card__item">
+                <a class="card__link " href="#">
+                    <img class="card__photo" src="/assets/img/card/1.png" alt="">
+                </a>
+                <div class="card__info">
+                    <h3 class="card__title">
+                        <a class="card__link" href="#"> 5 летних<br> грунтовых кортов</a>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="card__item">
+                <a class="card__link " href="#">
+                    <img class="card__photo" src="/assets/img/card/2.png" alt="">
+                </a>
+                <div class="card__info">
+                    <h3 class="card__title">
+                        <a class="card__link" href="#"> Зал с покрытием “Искусственная трава”</a>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="card__item">
+                <a class="card__link " href="#">
+                    <img class="card__photo" src="/assets/img/card/3.png" alt="">
+                </a>
+                <div class="card__info">
+                    <h3 class="card__title">
+                        <a class="card__link" href="#"> Зал с покрытием<br> “Хард”</a>
+                    </h3>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- about -->
+
+<div class="about">
+    <div class="container">
+        <div class="about__inner">
+            <div class="about__photo">
+                <img class="about__img" src="/assets/img/about/1.png" alt="">
+            </div>
+            <div class="about__info">
+                <div class="title">
+                    Спортивный клуб
+                </div>
+                <div class="about__text">
+                    Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit turpis. Ultricies erat pretium risus quam tincidunt non viverra porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit mauris vitae amet aliquet ultrices mauris pellentesque. Non ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit pellentesque enim, vestibulum.
+                    <span class="gap">
+                    Condimentum hac adipiscing purus in augue nisi. Convallis ut nisi.
+                </div>
+                <div class="about__subtitle">
+                    Ornare orci ut dictum nulla fames.
+                </div>
+                <ul class="about__list">
+                    <li class="about__item">
+                        Euismod diam, vel venenatis bibendum sodales sem hendrerit vulputate sagittis.
+                    </li>
+                    <li class="about__item">
+                        Nisl senectus sed malesuada donec. Interdum malesuada bibendum imperdiet elementum auctor vitae in.
+                    </li>
+                    <li class="about__item">
+                        Quam purus ornare dictum pharetra. Sed viverra tellus sollicitudin urna, sagittis.
+                    </li>
+                    <li class="about__item">
+                        Scelerisque urna senectus commodo, nam. Donec nibh tempus imperdiet nisi, tincidunt mus egestas nisl nullam.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+  <div class="inner">
+        <h3 class="title">Тренерский состав</h3>
+        <div class="swiper__button">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+</div>
+<!-- Slider main container -->
+<div class="swiper trainers">
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/1.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                Pulvinar <br> aliquam
+            </h3>
+            <div class="trainers__text">
+                Arcu elit massa amet turpis vel consequat pellentesque sit.
+            </div>
+        </div>
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/2.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                Pretium<br> odio
+            </h3>
+            <div class="trainers__text">
+                Bibendum aliquam volutpat nisl a duis in nisi. In sed commodo lorem morbi quis.
+            </div>
+        </div>
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/3.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                 Aliquet<br> consectetur
+
+            </h3>
+            <div class="trainers__text">
+                Id sapien sed nibh fermentum massa posuere ipsum. Diam in.
+            </div>
+        </div>
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/4.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                Blandit<br> augue
+            </h3>
+            <div class="trainers__text">
+                Scelerisque accumsan pretium justo, vitae elit. Dolor semper morbi sit auctor vel diam eros.
+            </div>
+        </div>
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/5.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                 Lorem<br> lacus
+            </h3>
+            <div class="trainers__text">
+                Adipiscing amet, viverra dignissim egestas. Sed nibh egestas venenatis faucibus.
+            </div>
+        </div>
+        <div class="swiper-slide trainers__item">
+            <div class="trainers__photo">
+                <img class="trainers__img" src="/assets/img/trainers/6.png" alt="">
+            </div>
+            <h3 class="trainers__title">
+                Sed<br> erat
+            </h3>
+            <div class="trainers__text">
+                Quis ullamcorper pretium lacus risus tellus dolor etiam.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- price -->
+
+<div class="price">
+    <div class="container">
+        <div class="price__inner">
+            <div class="price__category category">
+                <div class="title title--price">
+                    Цены и абонементы
+                </div>
+                <div class="category__item">
+                    <h3 class="category__title">
+                        Зимний сезон 2021-2022
+                    </h3>
+                    <div class="category__arrow">
+                        <img src="/assets/img/arrow-left.svg" alt="">
+                    </div>
+                </div>
+                <div class="category__item">
+                    <h3 class="category__title">
+                        Абонементы
+                    </h3>
+                    <div class="category__arrow">
+                        <img src="/assets/img/arrow-left.svg" alt="">
+                    </div>
+                </div>
+                <div class="category__item">
+                    <h3 class="category__title">
+                        Скидки
+                    </h3>
+                    <div class="category__arrow">
+                        <img src="/assets/img/arrow-left.svg" alt="">
+                    </div>
+                </div>
+                <div class="category__item">
+                    <h3 class="category__title">
+                        Дополнительные услуги
+                    </h3>
+                    <div class="category__arrow">
+                        <img src="/assets/img/arrow-left.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="wrap">
+                <div class="container">
+                    <div class="inner">
+                        <h3 class="title">Услуги</h3>
+                        <div class="swiper__button">
+                                <div class="swiper-button-prev-services"></div>
+                                <div class="swiper-button-next-services"></div>
+                        </div>
+                    </div>
+                    <div class="wrap__services">
+                        <div class="swiper services">
+                            <div class="swiper-wrapper ">
+                                <div class="swiper-slide swiper-slide-services">
+                                    <div class="services__item">
+                                        <div class="services__photo">
+                                            <img class="services__img" src="/assets/img/services/1.png" alt="">
+                                            </div>
+                                        <h3 class="services__title">
+                                            Уютное кафе
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <h3 class="footer__title">
+                2022 © Все права защищены.
+            </h3>
+
+            <ul class="list list-footer">
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Главная</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">О клубе</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Турниры</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Услуги</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Детский теннис</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Галерея</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Цены</a>
+                </li>
+                <li class="list__item">
+                    <a class="list__link list-fooret-link" href="#">Контакты</a>
+                </li>
+            </ul>
+            <div class="social social-footer">
+                <a class="social__link social-footer-link" href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a class="social__link social-footer-link" href="#">
+                    <i class="fa-brands fa-vk"></i>
+                </a>
+                <a class="social__link social-footer-link" href="#">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- <script src="./assets/app/swiper-bundle.min.js"></script> -->
+<script src="https://kit.fontawesome.com/417a707368.js" crossorigin="anonymous"></script>
+<script src="./assets/app/app.js"></script>
+</body>
+</html>
