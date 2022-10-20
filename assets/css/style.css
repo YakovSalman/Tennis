@@ -710,11 +710,7 @@ p {
     display: flex;
     justify-content: end;
 }
-@media (max-width: 1050px) {
-    .swiper-slide-active {
-        flex-shrink: 1;
-    }
-}
+
 /* trainers */
 
 .trainers {
