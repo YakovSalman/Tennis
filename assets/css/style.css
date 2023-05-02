@@ -640,12 +640,19 @@ p {
         padding: 70px;
     }
 }
-
+@media (max-width: 650px) {
+    .about {
+        margin-bottom: 80px;
+    }
+    .about__inner {
+        margin-top: 40px;
+    }
+}
 @media (max-width: 515px) {
+
     .about__info {
         padding: 20px;
     }
-
     .about__photo {
         top: 20px;
     }
@@ -860,6 +867,20 @@ p {
     .category__item {
         width: 350px;
     }
+
+    .intro {
+        margin-bottom: 80px;
+    }
+    .card {
+        margin-bottom: 80px;
+    }
+    .about {
+        margin-bottom: 80px;
+    }
+    .trainers {
+        margin-bottom: 80px;
+    }
+
 }
 
 @media (max-width: 375px) {
@@ -930,6 +951,7 @@ p {
     color: #333333;
 }
 
+
 @media (max-width: 1050px) {
     .list-footer {
         display: none;
@@ -952,6 +974,12 @@ p {
     }
     .footer__title {
         width: 40%;
+    }
+
+    @media (max-width: 420px) {
+        .footer {
+            margin-top: 80px
+        }
     }
 }
 
@@ -1142,6 +1170,9 @@ p {
     color: #333333;
 }
 @media (max-width: 767px) {
+    .photos {
+        margin-bottom: 80px;
+    }
     .about__privilege {
         display: block;
     }
